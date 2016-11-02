@@ -19,7 +19,7 @@ using namespace std;
  *   10 * 5 = 50
  */
 
-void multiplication(int number){
+void multiplication(int number) {
   cout << "Szorzótábla:" << endl;
   for (int i = 1; i <=10; i++) {
     cout << i << " * " << number << " = " << i * number << endl;

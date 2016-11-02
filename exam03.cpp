@@ -11,14 +11,14 @@ using namespace std;
 
 float multiplaj(float *mypointer, float numb);
 
-int main(){
+int main() {
   float total = 123;
   float *mypointer = &total;
   cout << multiplaj(mypointer,5);
   return 0;
 }
 
-float multiplaj(float *mypointer, float numb){
+float multiplaj(float *mypointer, float numb) {
   *mypointer = *mypointer * numb;
   return *mypointer;
 }
