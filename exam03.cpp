@@ -11,7 +11,7 @@ using namespace std;
 
 float multiplaj(float *mypointer, float numb);
 
-int main() {
+int main(){
   float total = 123;
   float *mypointer = &total;
   cout << multiplaj(mypointer,5);

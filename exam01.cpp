@@ -17,17 +17,17 @@ bool biggerorequal (int array[], int length, int number){
   return bigoreq;
 }
 
-int main() {
+int main(){
   int array[] = {3, 2, 4, 6, -1};
   int length = sizeof(array) / sizeof(int);
   int number;
   cout << "Adj meg egy számot!" << endl;
   cin >> number;
-  if (biggerorequal( array, length, number) == 1) {
-    cout << "Van nagyobb vagy egyenlő szám a '" << number << "' számhoz viszonyítva a tömben" << endl;
-  }
-  else {
-    cout << "Nincs nagyobb vagy egyenlő szám a '" << number <<"' számhoz viszonyítva a tömben" << endl;
-  }
+    if (biggerorequal( array, length, number) == 1) {
+      cout << "Van nagyobb vagy egyenlő szám a '" << number << "' számhoz viszonyítva a tömben" << endl;
+    }
+    else {
+      cout << "Nincs nagyobb vagy egyenlő szám a '" << number <<"' számhoz viszonyítva a tömben" << endl;
+    }
   return 0;
 }

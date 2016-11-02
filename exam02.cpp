@@ -22,7 +22,7 @@ using namespace std;
 void multiplication(int number){
   cout << "Szorzótábla:" << endl;
   for (int i = 1; i <=10; i++) {
-    cout << i << " * " << number << " = " << i*number << endl;
+    cout << i << " * " << number << " = " << i * number << endl;
   }
 }
 
